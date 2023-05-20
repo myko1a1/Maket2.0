@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+.polotno{
+width: 912px;
+height: 1368px;
+background-color: white;
+border: 1px solid white;
+margin: auto;
+}
+.menu{
+    width: 870px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: px;
+
+    color: #000000;
+
+}
+li:hover{
+    border-bottom: 3px solid red;
+    transition: all 3s;
+}
+.home{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+}
+.name{
+    width: 187px;
+    height: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 87px;
+
+}
+.infor{
+    width: 85px;
+    height: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    padding-right: 165px;
+    
+}
+.language{
+    width: 96px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #DADADA;
+    transform: rotate(-90deg);
+}
+img{
+    width: 641px;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 58px;
+}
+.aboutme{
+    width: 912px;
+    height: 284px;
+    background-color: #DADADA;
+
+}
+h2{
+    width: 159px;
+    height: 47px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #000000;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.text{
+    width: 320px;
+    height: 213px;
+    font-family: 'Goudy Bookletter 1911';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 auto;
+    color: #3C3C3C;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.skills{
+    width: 100%;
+}
+.paragraf1{
+    font-family: 'Goudy Bookletter 1911';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.paragraf2{
+    font-family: 'Goudy Bookletter 1911';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.programs{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.star{
+    display: flex;
+}
+.kartinka{
+    width: 93px;
+    height: 93px;
+}
+.star img{
+    width: 24px;
+    height: 24px;
+}
+.contactme{
+    font-family: 'Goudy Bookletter 1911';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #000000;
+    padding-top: 10px;
+}
+.contact{
+    width: 100%;
+    height: 260px;
+    background-color:  #DADADA;
+}
+.contacttext{
+    font-family: 'Goudy Bookletter 1911';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C3C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.send{
+    text-decoration: none;
+    padding: 5px 19px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    font-family: 'Goudy Bookletter 1911';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+}
+.knopka{
+    width: 144px;
+    height: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+a:hover{
+    text-decoration: none;
+    padding: 5px 19px;
+    background-color: rgb(196, 196, 196);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.messengers{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.linkedin{
+    width: 55px;
+    height: 50px;
+}
+.github{
+    width: 55px;
+    height: 50px;
+}
+.instagram{
+    width: 55px;
+    height: 50px;
+}
+.telegram{
+    width: 55px;
+    height: 50px;
+}
+.textcontact{
+    width: 195px;
+    height: 40px;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
